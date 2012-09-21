@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'sinatra'
 require 'time'
 
@@ -6,7 +7,7 @@ def now()
 end
 
 
-get '/' do
+get '' do
    "Hello, The UTC time is currently #{now()}"
 end
 
