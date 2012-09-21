@@ -1,5 +1,5 @@
 require 'sinatra'
-require './app.rb'
+require './app/app.rb'
 log = File.new("logs/output.log","a")
 STDOUT.reopen(log)
 STDERR.reopen(log)
